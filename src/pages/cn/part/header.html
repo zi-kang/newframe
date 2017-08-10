@@ -1,0 +1,46 @@
+<div id="header" class="header pr">
+    <div class=" pr nav-bar clearfix">
+        <a href="/" class="fl logo icon-EasyAR"></a>
+        <ul id="nav" class="clearfix dlb fl">
+            <li class="fl productli pr">
+                <a id="oneStepSolution" href="javascript:void(null);" <% if (typeof nav != 'undefined' && nav == 'product') { %> class="active" <% } %>>产品</a>
+                <ul class="menu-list pa-l">
+                    <li><a href="/view/sdk.html">EasyAR SDK</a></li>
+                    <li><a href="/view/crs.html">EasyAR CRS</a></li>
+                </ul>
+            </li>
+            <li class="fl">
+                <a href="/view/support.html" <% if (typeof nav != 'undefined' && nav == 'support') { %> class="active" <% } %>>支持</a>
+            </li>
+            <li class="fl ">
+                <a href="/view/download.html" <% if (typeof nav != 'undefined' && nav == 'download') { %> class="active" <% } %>>下载</a>
+            </li>
+            <li class="fl ">
+                <a href="http://answers.easyar.cn/" target="_blank">问答</a>
+            </li>
+            <li class="fl ">
+                <a href="http://forum.easyar.cn/" target="_blank">社区</a>
+            </li>
+        </ul>
+        <div id="login_wrap" class="dlb fr">
+            <a href="/view/login.html" class="mr10" id="login">登录</a>|
+            <a href="/view/login.html#register" id="register">注册</a>
+        </div>
+        <p <% if (typeof nav != 'undefined' && nav == 'develop') { %> class="active" <% }  %>>
+        <a href="/view/open/app.html">开发中心</a>
+        </p>
+        <div class="language pa-r">
+            <a href="/" class="cn db">中国站</a>
+            <a href="http://www.easyar.com" class="en db">美国站</a>
+        </div>
+    </div>
+</div>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?142ec7b9431225870ab7290236e3670c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script><!--ignore-->

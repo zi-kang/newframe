@@ -1,0 +1,102 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 1200px;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgba(0,160,233,1);
+  font-size: 14px;
+  z-index: 2;
+  .anima{
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+  }
+  a{
+    color: #fff;
+  }
+  .logo{
+    display: inline-block;
+    width: 88px;
+    height: 25px;
+    margin: 17.5px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logo:hover {
+    background-color: #00a0e9;
+  }
+  li{
+    line-height: 60px;
+    a{
+      display: block;
+      padding: 0 20px;
+      height: 100%;
+    }
+  }
+  .active,
+  p:hover,
+  a:hover{
+    background-color: #0293d3;
+  }
+  .productli:hover{
+    .menu-list{
+      max-height: 200px;
+    }
+  }
+  .menu-list{
+    display: block;
+    width: 140px;
+    max-height: 0;
+    top:61px;
+    overflow: hidden;
+    background: #00a0e9;
+    .anima;
+    li{
+      width: 100%;
+      line-height: 40px;
+    }
+    a{
+      padding: 0;
+    }
+  }
+  p{
+    float: right;
+    display: inline-block;
+    a{
+      display: block;
+      padding: 0 20px;
+    }
+  }
+  #login_wrap{
+    margin-right: 100px;
+    color: #fff;
+    a:hover{
+      text-decoration: underline;
+      background-color: #00a0e9;
+    }
+  }
+  .language{
+    width: 80px;
+    color: #fff;
+    background-color: #00a0e9;
+  }
+  .en{
+    line-height: 40px;
+    max-height: 0;
+    overflow: hidden;
+    .anima;
+  }
+  .language:hover{
+    .en{
+      max-height: 40px;
+    }
+  }
+
+}
+
+
+

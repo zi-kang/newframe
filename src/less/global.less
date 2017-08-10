@@ -1,0 +1,198 @@
+@ff: #fff;
+@white: #fff;
+@f0: #f0f0f0;
+@f7: #f7f7f7;
+@fb: #fbfbfb;
+@00: #000;
+@black: #000;
+@1b: #1b1b1b;
+@22: #222;
+@2c: #2c2c2c;
+@2d: #2d2d2d;
+@28: #282828;
+@31: #313131;
+@33: #333;
+@43: #434343;
+@44: #444;
+@53: #535353;
+@66: #666666;
+@89: #898989;
+@93: #939393;
+@95: #959595;
+@99: #999999;
+@orange: #f39800;
+@orange1: #de7324;
+@orange2: #F76D08;
+@orange3: #f4b64c;
+@orange4: #f9cb7f;
+@blue: #00a0e9;
+@blue1: #00b7ee;
+@blue2:#ebf8fb;
+@green: #8fc31f;
+@green1: #8cc519;
+@green2: #7ee408;
+@green3: #67CF22;
+@pink: #ea68a2;
+@cc: #ccc;
+@dc: #dcdcdc;
+@d2: #d2d2d2;
+@dd: #ddd;
+@ee: #eee;
+@7c: #7c7c7c;
+@red: #ff0000;
+@red1: #e6000b;
+@pink: #faf3f0;
+
+
+@font-face {
+    font-family: 'myFont';
+    src: url('/assets/font/fzltxh_GBK.ttf');
+    font-weight: lighter;
+    font-style: normal;
+}
+.w1190 {
+    width: 1190px;
+}
+
+.w980 {
+    width: 980px;
+}
+
+.c66 {
+    color: #666;
+}
+
+.c33 {
+    color: #333;
+}
+
+.blue {
+    color: @blue;
+}
+
+.glblue {
+    color: #00a0e9;
+}
+
+.orange{
+    color:#f39800;
+}
+
+.cgold{
+    color:#f5aa2c;
+}
+
+.red{
+    color:red;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'myFont',"Source Han Sans", "Segoe UI";
+    height: 100%;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    min-width: 980px;
+    background: #eee;
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 12px;
+}
+li{
+    list-style: none;
+}
+input::-webkit-search-cancel-button {
+    display: none;
+}
+.v-center{
+    position: absolute;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.p-center{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.b-sizing{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.center{
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+}
+.pf{
+    position: fixed;
+}
+.pa-l{
+    .pa;
+    top: 0;
+    left: 0;
+}
+.pa-r{
+    .pa;
+    top: 0;
+    right: 0;
+}
+.clearfix:after{
+    display: block;
+    height: 0;
+    content: '';
+    overflow: hidden;
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+.t-center{
+  text-align: center;
+}
+.o-dn{
+  overflow: hidden;
+}
+.dn{
+  display: none;
+}
+.db{
+  display: block;
+}
+.dlb{
+  display: inline-block;
+}
+.dl{
+  display: inline;
+}
+
+
+@import url('style.less');

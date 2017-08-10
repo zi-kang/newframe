@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>{ block 'title' }default title{ /block }</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/global.css" />
+</head>
+<body>
+
+{ block 'var' }
+
+{ /block }
+
+{ include 'cn/part/header' }
+
+
+{ block 'body' }
+    default body
+{ /block }
+
+{ block 'side' }
+    default side
+{ /block }
+
+{ block "copyright" }
+{ include 'cn/part/footer' }
+{ /block }
+
+
+<script type="text/javascript" src="/assets/libs/require/require.js" data-main="/assets/js/main.js"></script>
+</body>
+</html>
